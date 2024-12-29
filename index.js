@@ -25,7 +25,7 @@ const cf = require('./other/config')
 //guild config moved in ""./other/config.js" there you can set
 
 
-if (!cf.config.guild_x || !cf.config.role_x || !cf.config.staff_x  || !cf.config.slotrule) {
+if (!cf.config.guild_x ||1289633935579680883 !cf.config.role_x ||1305325148831744020 !cf.config.staff_x  1307970309936123904|| !cf.config.slotrule) {
   
   console.log('you need to setup config file first')
 
@@ -116,4 +116,4 @@ client.on("messageCreate", async message => {
 end(client,cf)
 
 
-client.login("Your Bot Token")
+client.login("")
